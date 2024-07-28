@@ -20,6 +20,9 @@ This Repository was created to help me set up the basic apps that I utilise on L
       sudo flatpak install flathub com.discordapp.Discord
 
 ## Code Editor
+
+curl -f https://zed.dev/install.sh | sh
+
 * I have Visual Studio install, but I might switch to another code editor.
 
       sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
