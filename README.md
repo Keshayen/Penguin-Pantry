@@ -56,3 +56,6 @@ flatpak --user override ch.tlaun.TL --env=TL_BOOTSTRAP_OPTIONS="-Dtl.useForce"
 
 
 fastfetch
+## Printer drivers 
+xerox 3010: https://aur.archlinux.org/packages/xerox-phaser-3040
+epson l3050: https://wiki.archlinux.org/title/CUPS/Printer-specific_problems#Epson
