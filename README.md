@@ -18,9 +18,6 @@ This Repository was created to help me set up the basic apps that I utilise on L
 * I currently have Discord installed but I barely use Discord.
 
       sudo flatpak install flathub com.discordapp.Discord
-* I will install Whatsdesk for Whatsapp.
-
-      sudo snap install whatsdesk
 
 ## Code Editor
 * I have Visual Studio install, but I might switch to another code editor.
@@ -42,9 +39,17 @@ The app can then be installed via:
 sudo dnf install notion-app-enhanced
 // or
 sudo dnf install notion-app
+sudo npm i -g asar
 
 patch using script in repo
 
 
 install pomotez
 
+tl legacy 
+
+
+flatpak --user override ch.tlaun.TL --env=TL_BOOTSTRAP_OPTIONS="-Dtl.useForce"
+
+
+fastfetch
