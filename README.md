@@ -28,6 +28,8 @@ curl -f https://zed.dev/install.sh | sh
       sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
       echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
 
+download from yay, the only install normal, not debug, pacman -U ...
+
 
 Add notion-repackaged to your package manager by creating the file /etc/yum.repos.d/notion-repackaged.repo with the following contents:
 
@@ -50,6 +52,7 @@ patch using script in repo
 install pomotez
 
 tl legacy 
+
 
 
 flatpak --user override ch.tlaun.TL --env=TL_BOOTSTRAP_OPTIONS="-Dtl.useForce"
